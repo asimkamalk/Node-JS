@@ -8,12 +8,13 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-     "start": "nodemon app.js"
+    "start": "nodemon app.js"
   },
   "devDependencies": {
     "nodemon": "^3.1.11"
   },
   "dependencies": {
+    "body-parser": "^2.2.1",
     "express": "^5.1.0"
   }
 }
